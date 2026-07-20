@@ -17,7 +17,7 @@
     <link rel='shortcut icon' href='/assets/img/icons/favicon.ico' type='image/x-icon' />
     <link rel="stylesheet" href="/assets/css/main.css">
 
-    
+
     <title>{% if page.title %}{{ page.title }} - {% endif %}Blockcerts : The Open Standard for Blockchain Credentials</title>
 
     <!--
@@ -54,7 +54,6 @@
     </script>
     <script src="../node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="../node_modules/@blockcerts/blockcerts-verifier/dist/ie11.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i" rel="stylesheet">
 
@@ -96,8 +95,8 @@
       </nav>
 
     {% if page.home %}
-      <div class="hero-cover"> 
-        
+      <div class="hero-cover">
+
     {% else %}
       <div class="inner-page" style="min-height: 125px; background-color: #031532">
     {% endif %}
@@ -139,7 +138,7 @@
         <div class="container cover__container--16 cover__content_box--16 hero-cover-img" style="position: relative;">
 
             <div class="verifier">
-              <h2 class="hero-title">Blockcerts Universal Verifier</h2>    
+              <h2 class="hero-title">Blockcerts Universal Verifier</h2>
                 <blockcerts-verifier display-mode="fullscreen" theme="dark" clickable-urls="true"></blockcerts-verifier>
             </div>
 
@@ -153,7 +152,7 @@
 
         {% endif %}
 
-      
+
     </div>
 
 
@@ -215,5 +214,3 @@
   </body>
   <div class="js-overlay js-close-navigation js-close-menu overlay"></div>
 </html>
-
-
